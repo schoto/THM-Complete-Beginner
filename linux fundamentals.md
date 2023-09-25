@@ -62,3 +62,19 @@ The ```>>``` operator allows to append the output to the bottom of the file — 
 ```tryhackme@linux1:~$ cat welcome```
 ```hey```
 ```hello```
+
+<h2>Questions / Answers</h2>
+
+If we wanted to run a command in the background, what operator would we want to use?
+
+```&```
+
+If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
+
+```echo passwords > password123```
+
+
+Now if I wanted to add "tryhackme" to this file named "passwords" but also keep "passwords123", what would my command be
+
+```echo tryhackme >> passwords123```
+
