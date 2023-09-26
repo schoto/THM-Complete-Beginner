@@ -111,6 +111,8 @@ How would we move the file "myfile" to the directory "myfolder"
 
 ```mv myfile myfolder```
 
+<h2>Permissions 101</h2>
+
 
 
 
