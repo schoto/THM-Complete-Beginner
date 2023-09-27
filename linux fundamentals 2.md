@@ -120,4 +120,20 @@ The user we wish to switch to
 
 The user's password
 
+<h2>Common directories</h2>
+
+<h3>/etc</h3>
+
+This root directory is one of the most important root directories on your system. 
+
+The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system. 
+
+For example, the sudoers file highlighted in the screenshot below contains a list of the users & groups that have permission to run sudo or a set of commands as the root user.
+
+Also highlighted below are the "passwd" and "shadow" files. These two files are special for Linux as they show how your system stores the passwords for each user in encrypted formatting called sha512.
+
+```
+tryhackme@linux2:/etc$ ls
+shadow passwd sudoers sudoers.d
+```
 
