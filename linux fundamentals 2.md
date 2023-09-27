@@ -137,3 +137,51 @@ tryhackme@linux2:/etc$ ls
 shadow passwd sudoers sudoers.d
 ```
 
+<h3>/var</h3>
+
+The "/var" directory, with "var" being short for variable data,  is one of the main root folders found on a Linux install. 
+This folder stores data that is frequently accessed or written by services or applications running on the system. For example, 
+log files from running services and applications are written here (/var/log), or other data that is not necessarily associated with a specific user (i.e., databases and the like).
+
+```
+tryhackme@linux2:/var$ ls
+backups log opt tmp
+```
+
+<h3>/root</h3>
+
+Unlike the /home directory, the /root folder is actually the home for the "root" system user. 
+There isn't anything more to this folder other than just understanding that this is the home directory for the "root" user. 
+But, it is worth a mention as the logical presumption is that this user would have their data in a directory such as "/home/root" by default.
+
+```
+root@linux2:~# ls
+myfile myfolder passwords.xlsx
+```
+
+<h3>/tmp</h3>
+
+This is a unique root directory found on a Linux install. Short for "temporary", the /tmp directory is volatile and is used to store data that is only needed to be accessed once or twice. 
+Similar to the memory on your computer, once the computer is restarted, the contents of this folder are cleared out.
+What's useful for us in pentesting is that any user can write to this folder by default. Meaning once we have access to a machine, it serves as a good place to store things like our enumeration scripts.
+
+```
+root@linux2:/tmp# ls
+todelete trash.txt rubbish.bin
+```
+
+<h2>Questions / Answers</h2>
+
+What is the directory path that would we expect logs to be stored in?
+
+```/var/logs```
+
+What root directory is similar to how RAM on a computer works?
+
+```/tmp```
+
+Name the home directory of the root user 
+
+```/root```
+
+
