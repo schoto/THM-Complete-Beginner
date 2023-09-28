@@ -54,3 +54,14 @@ Some of VIM's benefits, albeit taking a much longer time to become familiar with
 - There are a lot of resources such as cheatsheets, tutorials, and the sorts available to you use.
 
 
+<h3>General/Useful Utilities</h3>
+
+Downloading Files
+
+A pretty fundamental feature of computing is the ability to transfer files. For example, you may want to download a program, a script, or even a picture. 
+Thankfully for us, there are multiple ways in which we can retrieve these files.
+
+We're going to cover the use of ```wget```.  This command allows us to download files from the web via HTTP -- as if you were accessing the file in your browser. We simply need to provide the address of the resource that we wish to download. For example, if I wanted to download a file named "myfile.txt" onto my machine, assuming I knew the web address it -- it would look something like this:
+
+```wget https://assets.tryhackme.com/additional/linux-fundamentals/part3/myfile.txt```
+
