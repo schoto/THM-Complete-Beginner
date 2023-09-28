@@ -1,4 +1,4 @@
-<h2>AAAAALL RIGHT, this is the the part 3 of Linux Fundamentals with THM</h2>
+<h2>AAAAALLRIGHT, this is the the part 3 of Linux Fundamentals with THM</h2>
 
 <h3>Terminal Text Editors</h3>
 
